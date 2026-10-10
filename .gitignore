@@ -1,0 +1,7 @@
+# секреты и ключи — никогда не коммитим
+.env
+.env.*
+!.env.example
+*.pem
+id_*
+!id_*.pub.example
