@@ -1,14 +1,19 @@
 # Hermes Agent
 
-## Что уже готово
+## Что в репозитории
 
 | Файл | Зачем |
 |---|---|
-| `.env` | `SERVER_IP=` и `SERVER_ROOT_PASSWORD=` — значения вписываешь сам |
-| `.env.example` | шаблон без значений, его можно коммитить |
+| `.env.example` | шаблон: скопируй в `.env` и впиши `SERVER_IP` и `SERVER_ROOT_PASSWORD` |
 | `.gitignore` | `.env` и любые ключи в git не попадают |
 | `setup-ssh-key.sh` | создание/подхват SSH-ключа — macOS / Linux |
 | `setup-ssh-key.ps1` | то же для Windows (PowerShell) |
+
+## Старт
+
+```bash
+cp .env.example .env   # значения впиши сам, .env в git не попадает
+```
 
 ## Важно про SSH-ключ
 
